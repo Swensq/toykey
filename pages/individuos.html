@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=0.8">
+
+    <title>Individuos - Alter</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <div class="logo-section">
+        <img src="../imgs/TOYKEYLOGO.png" alt="Alter Logo" />
+    </div>
+    <header>
+        <nav class="navbar">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="navbar-toggler">
+                <span class="navbar-toggler-icon"></span>
+            </label>
+            <div class="navbar-menu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="individuos.html">Individuos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="marcas.html">Marcas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reventa.html">Reventa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="get.html">A los socios</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Juguetes de diseño moderno</h2>
+            <p>Una colección de juguetes creados por diseñadores y artistas contemporáneos. Aquí encontrarás enfoques innovadores y creativos en el diseño de juguetes, que combinan atractivo estético y originalidad. Estos juguetes no solo sirven para entretener, sino que también actúan como elementos decorativos, destacando la individualidad del interior y reflejando las tendencias actuales en arte y diseño.</p>
+            <p>Cada artículo en esta sección es más que un simple juguete; es una obra de arte que tiene el poder de inspirar y sorprender. Ideal para coleccionistas en busca de piezas exclusivas y poco comunes, así como para aquellos que desean incorporar un toque de arte moderno en sus vidas y hogares.</p>
+        </section>
+
+        <section>
+            <h2>Populares</h2>
+            <ul id="fotos" class="image">
+                <li>
+                    <figure>
+                        <a href="#vladue">
+                            <img src="../imgs/vladue.jpeg" alt="vladue" width="200"/>
+                        </a>
+                        <figcaption>Vladue "Panama Cathead ver. Yellow"</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="#qbed">
+                            <img src="../imgs/qbed.jpeg" alt="qbed" width="168"/>
+                        </a>
+                        <figcaption>Qbed "SOMNUS"</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="#danil-yad">
+                            <img src="../imgs/danil yad.jpg" alt="Danil YAD" width="200"/>
+                        </a>
+                        <figcaption>Danil YAD “We need to cook”</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Модальные окна -->
+        <div id="vladue" class="modal">
+            <div class="modal-content">
+                <a href="#" class="close">&times;</a>
+                <h2>Vladue "Panama Cathead ver. Yellow"</h2>
+                <div class="modal-body">
+                    <img src="../imgs/vladue.jpeg" alt="vladue" class="modal-img"/>
+                    <div class="modal-description">
+                        <p>La figura está creada completamente a mano, desde la modelación del prototipo 3D hasta la pintura, y mantiene un estilo único del autor, inspirado en la cultura callejera y el pop art.</p>
+                        <form action="#not-implemented">
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" required>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            <label for="quantity">Cantidad:</label>
+                            <input type="number" id="quantity" name="quantity" required>
+                            <input type="submit" value="Купить">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="qbed" class="modal">
+            <div class="modal-content">
+                <a href="#" class="close">&times;</a>
+                <h2>Qbed "SOMNUS"</h2>
+                <div class="modal-body">
+                    <img src="../imgs/qbed.jpeg" alt="qbed" class="modal-img"/>
+                    <div class="modal-description">
+                        <p>La misión de qbed es presentar el mundo de la fabricación aditiva a todos los interesados, unir a los creadores de 3D practicantes, fomentar nuevos adeptos y compartir el amor por el 3D. ¡Queremos involucrar a todos los interesados en la nueva revolución industrial!</p>
+                        <form action="#not-implemented">
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" required>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            <label for="quantity">Cantidad:</label>
+                            <input type="number" id="quantity" name="quantity" required>
+                            <input type="submit" value="Купить">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="danil-yad" class="modal">
+            <div class="modal-content">
+                <a href="#" class="close">&times;</a>
+                <h2>Danil YAD “We need to cook”</h2>
+                <div class="modal-body">
+                    <img src="../imgs/danil yad.jpg" alt="Danil YAD" class="modal-img"/>
+                    <div class="modal-description">
+                        <p>Serie de juguetes de diseño "BRUTAL CUTE" Otra serie basada en el Proyecto Kaiju. Continuando con el tema de las contradicciones. Personajes brutales, pero de manera encantadora.</p>
+                        <form action="#not-implemented">
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" required>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            <label for="quantity">Cantidad:</label>
+                            <input type="number" id="quantity" name="quantity" required>
+                            <input type="submit" value="Comprar">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="not-implemented" class="modal">
+            <div class="modal-content">
+                <a href="#" class="close">&times;</a>
+                <h2>Esta función aún no está implementada.</h2>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Toda la información se ha obtenido con el permiso de los diseñadores, pero no es seguro. &copy;</p>
+    </footer>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+

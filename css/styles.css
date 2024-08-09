@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header, .content, .contact {
+    margin-bottom: 20px;
+}
+
+.video-text, .map-text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.video, .map {
+    width: 48%;
+}
+
+.text {
+    width: 48%;
+}
+
+.contact .contact-item {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .video-text, .map-text {
+        flex-direction: column;
+    }
+    .video, .map, .text {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+/* Анимации для текста и изображений на странице */
+#texto {
+    animation: slideIn 2s ease-in-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.image-grid .grid-item {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.image-grid .grid-item img {
+    animation: zoomIn 2s ease-in-out;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+

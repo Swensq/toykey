@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reventa - Alter</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <div class="logo-section">
+        <img src="../imgs/TOYKEYLOGO.png" alt="Alter Logo" />
+    </div>
+    <header>
+        <nav class="navbar">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="navbar-toggler">
+                <span class="navbar-toggler-icon"></span>
+            </label>
+            <div class="navbar-menu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="individuos.html">Individuos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="marcas.html">Marcas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reventa.html">Reventa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="get.html">A los socios</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Reventa de juguetes</h2>
+            <p>Esta categoría ofrece a los compradores la oportunidad de adquirir figuras y juguetes ya disponibles en el mercado de otros coleccionistas y aficionados. Es la opción ideal para aquellos que buscan expandir su colección con hallazgos raros o acceder a juguetes que ya no se producen.</p>
+        </section>
+
+        <section>
+            <h2>Raros</h2>
+            <ul id="fotos" class="image">
+                <li>
+                    <figure>
+                        <a href="#funko-pop">
+                            <img src="../imgs/funko pop.jpeg" alt="funko pop" width="200"/>
+                        </a>
+                        <figcaption>Funko Pop "South Park Towelie Flocked #34"</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="#hot-wheels">
+                            <img src="../imgs/hot weels.jpeg" alt="hot weels" width="200"/>
+                        </a>
+                        <figcaption>Hot Wheels 1:64 "RLC Delorean DMC 12"</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="#star-wars">
+                            <img src="../imgs/star wars.jpeg" alt="star wars" width="150"/>
+                        </a>
+                        <figcaption>Kenner "Ben (Obi-Wan) Kenobi”</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Модальные окна -->
+        <div id="funko-pop" class="modal">
+            <div class="modal-content">
+                <a href="#" class="close">&times;</a>
+                <h2>Funko Pop "South Park Towelie Flocked #34"</h2>
+                <div class="modal-body">
+                    <img src="../imgs/funko pop.jpeg" alt="funko pop" class="modal-img"/>
+                    <div class="modal-description">
+                        <p>Funko Pop "South Park Towelie Flocked #34" es una figura de vinilo que representa al popular personaje de la serie animada South Park, Towelie. Esta versión "flocked" añade una textura suave y especial al diseño, haciéndola aún más deseada por los coleccionistas.</p>
+                        <form action="#not-implemented">
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" required>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            <label for="quantity">Cantidad:</label>
+                            <input type="number" id="quantity" name="quantity" required>
+                            <input type="submit" value="Купить">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="hot-wheels" class="modal">
+            <div class="modal-content">
+                <a href="#" class="close">&times;</a>
+                <h2>Hot Wheels 1:64 "RLC Delorean DMC 12"</h2>
+                <div class="modal-body">
+                    <img src="../imgs/hot weels.jpeg" alt="hot weels" class="modal-img"/>
+                    <div class="modal-description">
+                        <p>Hot Wheels 1:64 "RLC Delorean DMC 12" es una réplica detallada y fiel del icónico automóvil Delorean DMC-12 de la película "Volver al Futuro". Esta versión de Hot Wheels, parte de la línea Red Line Club (RLC), captura la esencia retro futurista del vehículo con precisión, convirtiéndola en una pieza codiciada por los coleccionistas y aficionados a la película.</p>
+                        <form action="#not-implemented">
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" required>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            <label for="quantity">Cantidad:</label>
+                            <input type="number" id="quantity" name="quantity" required>
+                            <input type="submit" value="Купить">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="star-wars" class="modal">
+            <div class="modal-content">
+                <a href="#" class="close">&times;</a>
+                <h2>Kenner "Ben (Obi-Wan) Kenobi”</h2>
+                <div class="modal-body">
+                    <img src="../imgs/star wars.jpeg" alt="star wars" class="modal-img"/>
+                    <div class="modal-description">
+                        <p>Kenner "Ben (Obi-Wan) Kenobi" es una figura de acción basada en el personaje de Obi-Wan Kenobi de la saga de Star Wars. Esta figura, creada por Kenner, captura la esencia y la aventura del legendario Jedi con detalles auténticos и diseño cuidado, siendo una pieza valorada por los коллекционеров y фанатов de la franquicia.</p>
+                        <form action="#not-implemented">
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" required>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            <label for="quantity">Cantidad:</label>
+                            <input type="number" id="quantity" name="quantity" required>
+                            <input type="submit" value="Сomprar">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Модальное окно для сообщения о не реализованной функции -->
+        <div id="not-implemented" class="modal">
+            <div class="modal-content">
+                <a href="#" class="close">&times;</a>
+                <h2>Esta función aún no está implementada.</h2>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Toda la información se ha obtenido con el permiso de los diseñadores, pero no es seguro. &copy;</p>
+    </footer>
+
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

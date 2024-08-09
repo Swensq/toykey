@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcas - Alter</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <div class="logo-section">
+        <img src="../imgs/TOYKEYLOGO.png" alt="Alter Logo" />
+    </div>
+    <header>
+        <nav class="navbar">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="navbar-toggler">
+                <span class="navbar-toggler-icon"></span>
+            </label>
+            <div class="navbar-menu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="individuos.html">Individuos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="marcas.html">Marcas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reventa.html">Reventa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="get.html">A los socios</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Juguetes coleccionables raros</h2>
+            <p>Artículos únicos de edición limitada creados por marcas y artistas de renombre mundial. Estas juguetes no solo constituyen un complemento destacado para cualquier colección, sino que también poseen un considerable potencial de inversión debido a su estatus de valores coleccionables.</p>
+            <p>Cada pieza en esta sección es una obra de arte con una rica historia y un valor artístico único, diseñada para los coleccionistas más exigentes y los aficionados al arte moderno.</p>
+            <p>Este segmento está dedicado a aquellos que valoran la exclusividad y la profundidad artística, y buscan añadir a sus colecciones elementos que no solo sean estéticamente impresionantes, sino que también cuenten con un reconocimiento global como íconos del diseño y la cultura contemporánea.</p>
+        </section>
+
+        <section>
+            <h2>Famosos</h2>
+            <ul id="fotos" class="image">
+                <li>
+                    <figure>
+                        <a href="#bearbrick">
+                            <img src="../imgs/bearbrick.jpeg" alt="bearbrick" width="270"/>
+                        </a>
+                        <figcaption>BE@RBRICK "STITCH 400％"</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="#kaws">
+                            <img src="../imgs/kaws.jpeg" alt="kaws" width="205"/>
+                        </a>
+                        <figcaption>KAWS "We Love Money"</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="#hot-toys">
+                            <img src="../imgs/hot toys.jpeg" alt="hot toys" width="180"/>
+                        </a>
+                        <figcaption>Hot Toys "The Wolverine”</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Модальные окна -->
+        <div id="bearbrick" class="modal">
+            <div class="modal-content">
+                <a href="#" class="close">&times;</a>
+                <h2>BE@RBRICK "STITCH 400％"</h2>
+                <div class="modal-body">
+                    <img src="../imgs/bearbrick.jpeg" alt="bearbrick" class="modal-img"/>
+                    <div class="modal-description">
+                        <p>BE@RBRICK "STITCH 400％" es una versión especial del famoso personaje de Disney, Stitch, en el formato grande de 400%. Esta figura combina el estilo distintivo de BE@RBRICK con el encanto único y travieso de Stitch, capturando la atención de coleccionistas y fanáticos por igual.</p>
+                        <form action="#not-implemented">
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" required>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            <label for="quantity">Cantidad:</label>
+                            <input type="number" id="quantity" name="quantity" required>
+                            <input type="submit" value="Купить">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="kaws" class="modal">
+            <div class="modal-content">
+                <a href="#" class="close">&times;</a>
+                <h2>KAWS "We Love Money"</h2>
+                <div class="modal-body">
+                    <img src="../imgs/kaws.jpeg" alt="kaws" class="modal-img"/>
+                    <div class="modal-description">
+                        <p>KAWS "We Love Money" es una figura de juguete que refleja la estética característica del artista KAWS. Esta obra juega con la iconografía del dinero y la cultura popular de una manera irónica y provocativa, capturando la atención tanto de admiradores del arte contemporáneo como de coleccionistas de juguetes.</p>
+                        <form action="#not-implemented">
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" required>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            <label for="quantity">Cantidad:</label>
+                            <input type="number" id="quantity" name="quantity" required>
+                            <input type="submit" value="Купить">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="hot-toys" class="modal">
+            <div class="modal-content">
+                <a href="#" class="close">&times;</a>
+                <h2>Hot Toys "The Wolverine”</h2>
+                <div class="modal-body">
+                    <img src="../imgs/hot toys.jpeg" alt="hot toys" class="modal-img"/>
+                    <div class="modal-description">
+                        <p>Hot Toys "The Wolverine" es una figura de alta calidad que captura al personaje de Wolverine de manera detallada y realista. Con meticuloso trabajo artesanal y atención al detalle, esta figura ofrece una representación impresionante del famoso mutante de Marvel, atrayendo tanto a fans de los cómics como a coleccionistas exigentes.</p>
+                        <form action="#not-implemented">
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" required>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            <label for="quantity">Cantidad:</label>
+                            <input type="number" id="quantity" name="quantity" required>
+                            <input type="submit" value="Сomprar">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Модальное окно для сообщения о не реализованной функции -->
+        <div id="not-implemented" class="modal">
+            <div class="modal-content">
+                <a href="#" class="close">&times;</a>
+                <h2>Esta función aún no está implementada.</h2>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Toda la información se ha obtenido con el permiso de los diseñadores, pero no es seguro. &copy;</p>
+    </footer>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
+
